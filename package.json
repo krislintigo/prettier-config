@@ -1,0 +1,22 @@
+{
+  "name": "@krislintigo/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier configuration",
+  "type": "module",
+  "exports": "./index.json",
+  "files": [
+    "index.json"
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "krislintigo",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.8.0"
+  }
+}
